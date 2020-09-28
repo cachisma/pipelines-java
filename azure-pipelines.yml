@@ -21,7 +21,6 @@ steps:
     testResultsFiles: '**/TEST-*.xml'
     goals: 'clean package'
 
-steps:
 - task: ShellScript@2
   inputs:
     scriptPath: 'build.sh'
